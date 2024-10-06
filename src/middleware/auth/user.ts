@@ -9,7 +9,7 @@ export const isNormalUser = (req: Request, res: Response, next: Function) => {
 
 export const getUserByParams = (req: Request, res: Response, next: Function) => {
     req["user"] = {
-        name: "uzz",
+        name: "kevin",
         slug: req.params.slug,
         admin: true
     }

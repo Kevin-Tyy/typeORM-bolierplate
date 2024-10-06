@@ -15,10 +15,10 @@ export async function getTestAction(req: Request, res: Response) {
 export async function postTestAction(req: Request, res: Response) {
   const user = new User()
 
-  user.firstName = "ujjal";
-  user.lastName = "acharya";
+  user.firstName = "tuyizere";
+  user.lastName = "kevin";
   user.age = 25;
-  user.attributes = {...user.attributes, uzz: "acharya"}
+  user.attributes = {...user.attributes, uzz: "kevin"}
   await user.save()
 
 
